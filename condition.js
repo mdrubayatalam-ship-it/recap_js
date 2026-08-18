@@ -1,18 +1,18 @@
-// Using If-else Method
-let budget = 14000;
-let text = "going to sajek";
-if(budget >= 15000)
-{
-    text = "goint to Cox's bazar";
-}
+// // Using If-else Method
+// let budget = 14000;
+// let text = "going to sajek";
+// if(budget >= 15000)
+// {
+//     text = "goint to Cox's bazar";
+// }
 
-else if(budget <= 10000)
-{ 
-    text = "going to sylhet";
-}
+// else if(budget <= 10000)
+// { 
+//     text = "going to sylhet";
+// }
 
 
-console.log(text);
+// console.log(text);
 
 
 // // Using ternary method

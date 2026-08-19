@@ -2,7 +2,7 @@
 
 // const cars = ["Volvo", "Toyota", "Honda", "Marceidez", "BMW"];
 // let text = " ";
-// for(let i= 0; i < cars.length; i++)
+// for(let i= 0; i < cars.length; i++) 
 // {
 //      text += cars[i] + ",";
 // }

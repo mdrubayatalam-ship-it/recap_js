@@ -44,3 +44,25 @@ text += "</ul>";
 let headline = "<h1>My Cars List</h1>";
 document.getElementById("headLine").innerHTML = headline;
 document.getElementById("arrays").innerHTML = text;
+
+////--------------NESTED ARRAY and OBJECT--------------///
+
+let x = " ";
+const myObj = {
+    name: "Rubayat",
+    id: 138,
+    Grades: [{Courses:"Computer Architecture", Result: ["Letter: A+","GPA: 4.00"]},
+    {Courses:"Electromagnetic", Result:["Letter: B+","GPA: 3.25"]},
+    {Courses:"Signal and Linear System", Result:["Letter: B","GPA: 3.00"]},
+    {Courses:"Power System-I", Result:["Letter: A","GPA: 3.50"]},
+    {Courses:"Microcontroller and Microprocessor", Result:["Letter: A+","GPA: 4.00"]}
+    ]
+}
+
+for(let i in myObj.Grades){
+    x += "<h2>"+ myObj.Grades[i].Courses +"</h2>";
+     for (let j in myObj.Grades[i].Result) {
+        x += myObj.Grades[i].Result[j] + "<br>";
+     }
+}
+document.getElementById("results").innerHTML = x;

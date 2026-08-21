@@ -4,4 +4,4 @@
 
 const myPara = document.getElementById("Practice");
 myPara.innerText = "Rubayat";
-myPara.style.backgroundColor
+myPara.style.color = "blue";
